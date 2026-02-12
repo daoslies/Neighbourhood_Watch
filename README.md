@@ -9,12 +9,18 @@ RL agent that learns resource management and strategic planning through PPO. Bui
 ML code found in Council.py
 Environment code found in Environment.py
 
-Run with:
+### Run with:
 
 pip install requirements.txt
+
 python3 -m notebook
+
 Open up NBHDWatch_MAIN.ipynb in jupyter
+
 run all from jupyter
+
+
+
 
 ### Architecture
 

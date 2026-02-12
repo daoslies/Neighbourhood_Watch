@@ -1,4 +1,4 @@
-Neighbourhood_Watch: PPO Town Management
+## Neighbourhood_Watch: PPO Town Management
 
 RL agent that learns resource management and strategic planning through PPO. Built to explore reward shaping, spatial policy learning, and evaluation infrastructure challenges.
 
@@ -6,7 +6,8 @@ RL agent that learns resource management and strategic planning through PPO. Bui
   <img src="Assets/Example_image.png" width="500" alt="Agent managing a 10x10 town with buildings, resources, and population">
 </p>
 
-Architecture
+### Architecture
+
 State Representation: Multi-channel spatial observation (4×10×10 grid: food/wood/ore density + building map) + global resource vector (stockpiles, population, waste). 
 
 In the visualization above, tile colors encode resource densities (RGB channels: red=wood, green=food, blue=ore)

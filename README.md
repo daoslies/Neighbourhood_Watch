@@ -13,7 +13,7 @@ Environment code found in Environment.py
 ## Run with
 
 ```bash
-# Install dependencies
+# Install dependencies  - Note this includes torch, so might take a mo
 pip install -r requirements.txt
 
 # Launch Jupyter

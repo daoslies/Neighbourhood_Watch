@@ -2,6 +2,10 @@
 
 RL agent that learns resource management and strategic planning through PPO. Built to explore reward shaping, spatial policy learning, and evaluation infrastructure challenges.
 
+At each timestep The Council (An NN based agent) decides to build a building at any particular tile (the model's output), based on info about the simulation's current state (the model's input). 
+
+The agent is rewarded for increasing the population and is punished if everyone dies or waste gets too high.
+
 <p align="center">
   <img src="Assets/Example_image.png" width="500" alt="Agent managing a 10x10 town with buildings, resources, and population">
 </p>

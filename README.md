@@ -6,6 +6,16 @@ RL agent that learns resource management and strategic planning through PPO. Bui
   <img src="Assets/Example_image.png" width="500" alt="Agent managing a 10x10 town with buildings, resources, and population">
 </p>
 
+ML code found in Council.py
+Environment code found in Environment.py
+
+Run with:
+
+pip install requirements.txt
+python3 -m notebook
+Open up NBHDWatch_MAIN.ipynb in jupyter
+run all from jupyter
+
 ### Architecture
 
 State Representation: Multi-channel spatial observation (4×10×10 grid: food/wood/ore density + building map) + global resource vector (stockpiles, population, waste). 
